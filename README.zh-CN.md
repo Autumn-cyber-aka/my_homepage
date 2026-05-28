@@ -1,107 +1,72 @@
 <div align="center">
 
-# Luka Homepage
+# Autumn 的个人主页
 
-### 一个温暖、极简、响应式的个人主页模板，适合研究者、学生、开发者和创作者。
+### 一个展示我的教育背景、项目、研究兴趣和联系方式的个人学术主页。
 
-[English README](README.md) · [在线预览](https://wzsyyh.github.io/luka-homepage-template/) · [使用此模板](https://github.com/wzsyyh/luka-homepage-template/generate)
+[主页](https://autumn-cyber-aka.github.io/my_homepage/) · [GitHub](https://github.com/Autumn-cyber-aka)
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-c2714f?style=flat-square)](https://wzsyyh.github.io/luka-homepage-template/)
-[![Template Ready](https://img.shields.io/badge/Template-Ready-3d3929?style=flat-square)](https://github.com/wzsyyh/luka-homepage-template/generate)
-[![Stack](https://img.shields.io/badge/Stack-HTML%20%7C%20CSS%20%7C%20JS-e28a67?style=flat-square)](https://github.com/wzsyyh/luka-homepage-template)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-c2714f?style=flat-square)](https://autumn-cyber-aka.github.io/my_homepage/)
+[![Stack](https://img.shields.io/badge/Stack-HTML%20%7C%20CSS%20%7C%20JS-e28a67?style=flat-square)](https://github.com/Autumn-cyber-aka/my_homepage)
 [![License](https://img.shields.io/badge/License-MIT-8c8577?style=flat-square)](./LICENSE.md)
 
 </div>
 
-`Luka Homepage` 是从我自己的个人主页中抽离出来的一个独立模板版本。它追求温暖、克制、学术友好的视觉风格，同时保持纯静态、零构建、易部署。
+这是我的个人主页。它旨在介绍我的学术背景、研究兴趣、精选项目和联系方式。
 
-## 为什么用它
+该网站是使用 HTML、CSS 和 JavaScript 构建的简单静态网站，通过 GitHub Pages 部署。
 
-- 极简但不单调：更重视字体、配色、留白和阅读节奏。
-- 学术场景友好：不是通用作品集拼贴，而是为个人主页内容定制。
-- 零构建成本：直接部署到 GitHub Pages 即可。
-- 易于复用：改少量文案和资源就能快速上线。
-- 已做好移动端适配：桌面端和手机端都能直接使用。
+## 关于我
 
-## 模板包含什么
+我对计算机科学、数学、大语言模型、推理、人工智能系统和量化研究感兴趣。
+
+## 本站包含的内容
 
 | 模块 | 内容 |
 | --- | --- |
-| 个人信息 | `About Me`、头像、邮箱、社交链接 |
-| 学术时间线 | `Education`、`Experience` |
-| 展示区 | `Projects`、`Publications`、`Awards` |
-| 体验细节 | 深色模式、轻量动画、响应式布局 |
-| 可替换资源 | 头像、机构 Logo、favicon、CV 链接 |
+| 关于我 | 个人介绍和学术兴趣 |
+| 教育背景 | 学校和学术经历 |
+| 项目 | 精选项目和工作 |
+| 经历 | 研究、实习或社区活动经验 |
+| 奖项 | 精选荣誉和成就 |
+| 联系方式 | 邮箱和社交媒体链接 |
 
-## 快速开始
-
-### 1. 创建你自己的版本
-
-直接使用 GitHub 的 [Use This Template](https://github.com/wzsyyh/luka-homepage-template/generate)，或者把这个目录整体复制到一个新仓库中。
-
-推荐仓库名：
-
-- `luka-homepage`
-- `luka-homepage-template`
-- `luka-academic-homepage`
-
-### 2. 修改内容
-
-通常只需要编辑这些文件：
-
-- `index.html`：页面结构与主要内容
-- `assets/css/theme-luka.css`：颜色、间距和布局
-- `assets/img/avatar.svg`：头像占位图
-- `assets/img/institution.svg`：机构 Logo 占位图
-
-### 3. 替换资源
-
-- 头像：替换 `assets/img/avatar.svg`
-- 机构 Logo：替换 `assets/img/institution.svg`
-- favicon：替换 `assets/img/favicon.svg`
-- 简历：修改 `index.html` 中的 `Download my CV` 链接
-
-### 4. 部署到 GitHub Pages
-
-1. 打开仓库 `Settings`
-2. 进入 `Pages`
-3. 选择 `Deploy from a branch`
-4. 选择 `main` 和 `/ (root)`
-5. 保存并等待部署完成
-
-## 目录结构
+## 项目结构
 
 ```text
 .
 ├── index.html
 ├── README.md
-├── README.zh-CN.md
 ├── LICENSE.md
 └── assets
     ├── css
-    │   ├── font_sans_serif.css
-    │   └── theme-luka.css
     ├── cv
     ├── img
     └── js
-        └── scale.fix.js
 ```
 
-## 设计说明
+## 部署
 
-- 左侧栏默认保持顶部对齐，和原始个人主页布局一致。
-- 视觉语言更偏温暖、克制，而不是炫技式装饰。
-- 模板保留了足够的学术主页结构，同时又尽量降低了个性化门槛。
+本网站通过 GitHub Pages 部署。
 
-## 署名与版权
+仓库设置：
 
-默认页脚包含两行：
+```text
+Source: Deploy from a branch
+Branch: main
+Folder: / (root)
+```
 
-1. 你的站点版权信息
-2. `Luka Homepage Template by Yuheng Yang`
+网站链接：
 
-如果你希望保留模板来源，建议保留第二行。
+```text
+https://autumn-cyber-aka.github.io/my_homepage/
+```
+
+## 致谢
+
+本网站基于 Yuheng Yang 创建的 Luka Homepage 模板。
 
 ## 许可证
 
-这个模板自带 `LICENSE.md`，可以直接作为独立仓库发布。
+本仓库遵循 MIT 许可证。
