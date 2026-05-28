@@ -1,6 +1,6 @@
 <div align="center">
 
-# Jianchen Lyu's Homepage
+# Autumn's Homepage
 
 ### A personal academic homepage for my education, projects, research interests, and contact information.
 
