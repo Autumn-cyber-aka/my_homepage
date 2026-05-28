@@ -1,0 +1,70 @@
+/* Visitor Map Styles */
+#map-container {
+  position: relative;
+  width: 100%;
+  margin: 20px 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#map {
+  width: 100%;
+  height: 500px;
+  background-color: #f0f0f0;
+}
+
+.map-info {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-top: 1px solid #e0e0e0;
+  min-height: 50px;
+  font-size: 14px;
+  color: #555;
+}
+
+.map-info p {
+  margin: 5px 0;
+  line-height: 1.5;
+}
+
+.map-info strong {
+  color: #333;
+}
+
+/* Dark theme support */
+[data-theme="dark"] #map {
+  background-color: #2d2d2d;
+}
+
+[data-theme="dark"] .map-info {
+  background-color: #1a1a1a;
+  border-top-color: #444;
+  color: #ccc;
+}
+
+[data-theme="dark"] .map-info strong {
+  color: #fff;
+}
+
+/* Leaflet custom marker styles */
+.leaflet-popup-content {
+  font-family: Inter, sans-serif;
+  font-size: 13px;
+}
+
+.leaflet-popup-content p {
+  margin: 5px 0;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  #map {
+    height: 350px;
+  }
+
+  .map-info {
+    padding: 12px;
+    font-size: 13px;
+  }
+}
